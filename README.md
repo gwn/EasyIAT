@@ -1,5 +1,5 @@
-EasyIAT
-=======
+EasyIAT - Node
+==============
 Example IAT (from template):  http://witiko.co/testIAT/
 
 A more modern open source Impicit Association Test for the web.  Uses javascript and html5 for a scalable interface and more accurate timing.  Configuration files support single and multiple target IATs and arbitrary numbers of blocks, stimuli and trials.
@@ -12,7 +12,7 @@ Bryan Kerster bkerster [@] ucmerced.edu
 
 Requirements:
 -------------
-Server-side: PHP, Python & write permission for web user in directory
+Server-side: Node, Python & write permission for web user in directory
 	     
 Client-side: Recent HTML5 and Javascript capable web browser (Firefox & Chrome work, Opera & Safari are buggy)
 
@@ -22,7 +22,7 @@ Simple Setup:
 
 2) Set write permissions for savefile.php and the output folder (If you do not do this data will not output)
 
-3) Edit localserverpath in /config/iat_config.cfg to be your url for the IAT directory (If you do not do this data will not output)  
+3) Copy /config/iat\_config.example.cfg to /config/iat\_config.cfg, then edit localserverpath in /config/iat\_config.cfg to be your url for the IAT directory (If you do not do this data will not output)  
 
 4) Edit config files to make your experiment
 
