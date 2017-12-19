@@ -1,0 +1,4 @@
+Install YARN, then:
+
+    yarn install
+    chmod a+w output  # or something better than that
